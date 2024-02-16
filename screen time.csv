@@ -1,0 +1,242 @@
+﻿Date,App,Category,Time,Pickups,Notifications
+1,Instagram,Social,85,22,8
+1,Kindle,Information and Reading,49,1,0
+1,TikTok,Social,48,1,1
+1,MonopolyGo,Games,46,4,0
+1,Reddit,Information and Reading,37,0,0
+1,Chrome,Utilities,19,5,0
+1,Slots Era,Games,13,0,0
+1,Facebook,Social,8,0,2
+1,Messages,Social,8,9,19
+1,Hinge,Other,2,2,0
+1,Starbucks,Shopping and Food,2,2,0
+1,Tinder,Other,1,0,0
+1,Amazon,Shopping and Food,1,0,0
+1,Maps,Travel,1,1,0
+1,Swagbucks,Other,1,2,0
+1,Mercari,Shopping and Food,1,3,1
+1,Etsy,Shopping and Food,1,0,0
+1,Target,Shopping and Food,1,0,0
+1,Messenger,Social,0.883333333,3,11
+1,Calendar,Productivity and Finance,0.866666667,1,0
+1,Photos,Creativity,0.833333333,0,0
+1,App Store,Utilities,0.733333333,0,0
+1,Spotify,Entertainment,0.716666667,1,0
+1,Outlook,Productivity and Finance,0.616666667,1,10
+1,Gmail,Productivity and Finance,0.3,2,74
+1,WhatsApp,Social,0.2,1,15
+1,FaceTime,Social,0.05,0,0
+1,Clock,,0.05,0,2
+1,Camera,Creativity,0.016666667,0,0
+1,Snapchat,Social,0.016666667,0,0
+1,Life360,Social,0,0,6
+1,Timehop,Social,0,0,3
+1,Travel Town,Games,0,0,3
+1,Hoopla,Information and Reading,0,0,1
+2,Instagram,Social,101,8,8
+2,TikTok,Social,95,1,0
+2,MonopolyGo,Games,54,1,0
+2,EverMerge,Games,39,0,0
+2,Travel Town,Games,34,1,3
+2,Chrome,Utilities,30,4,0
+2,Slots Era,Games,28,0,0
+2,Photos,Creativity,17,6,0
+2,Snapchat,Social,13,7,49
+2,Facebook,Social,13,1,0
+2,Messages,Social,9,15,23
+2,Spotify,Entertainment,6,7,0
+2,Discord,Social,4,0,0
+2,Goodreads,Information and Reading,2,0,0
+2,Kindle,Information and Reading,2,0,0
+2,IMDb,Entertainment,1,0,0
+2,Gmail,Productivity and Finance,1,2,33
+2,Maps,Travel,1,0,0
+2,Messenger,Social,1,0,13
+2,Amazon,Shopping and Food,1,0,0
+2,Etsy,Shopping and Food,0.8,0,0
+2,Reddit,Information and Reading,0.666666667,0,0
+2,Discover,Productivity and Finance,0.583333333,0,0
+2,Hinge,Other,0.533333333,0,0
+2,Citi Mobile,Productivity and Finance,0.483333333,0,0
+2,Tinder,Other,0.433333333,0,0
+2,Mercari,Shopping and Food,0.366666667,0,1
+2,Life360,Social,0.3,0,5
+2,Calendar,Productivity and Finance,0.283333333,0,0
+2,Starbucks,Shopping and Food,0.216666667,0,0
+2,Timehop,Social,0.216666667,0,2
+2,Safari,,0.116666667,0,0
+2,Phone,,0.083333333,0,0
+2,Outlook,Productivity and Finance,0,0,1
+3,MonopolyGo,Games,136,2,0
+3,TikTok,Social,100,4,2
+3,Kindle,Information and Reading,83,5,0
+3,Instagram,Social,64,34,2
+3,Facebook,Social,26,4,1
+3,Chrome,Utilities,21,6,0
+3,Snapchat,Social,13,5,33
+3,Goodreads,Information and Reading,8,1,0
+3,Messages,Social,7,14,21
+3,Target,Shopping and Food,7,0,0
+3,Maps,Travel,4,1,0
+3,Spotify,Entertainment,4,6,0
+3,Discord,Social,4,0,0
+3,Amazon,Shopping and Food,3,0,0
+3,Camera,Creativity,3,1,0
+3,Photos,Creativity,2,3,0
+3,Tinder,Other,2,3,0
+3,Life360,Social,1,1,2
+3,Gmail,Productivity and Finance,1,1,19
+3,Etsy,Shopping and Food,1,0,0
+3,Messenger,Social,1,4,7
+3,IMDb,Entertainment,0.833333333,0,0
+3,Calculator,Utilities,0.7,1,0
+3,Reddit,Information and Reading,0.433333333,0,0
+3,Hinge,Other,0.383333333,0,0
+3,Timehop,Social,0.216666667,1,1
+3,Mercari,Shopping and Food,0.15,0,0
+3,Safari,,0.133333333,0,0
+3,Notes,Productivity and Finance,0.05,0,0
+3,Widgetsmith,Productivity and Finance,0.033333333,0,0
+3,Travel Town,Games,0,0,3
+4,Kindle,Information and Reading,197,6,0
+4,Instagram,Social,167,10,10
+4,EverMerge,Games,135,2,0
+4,TikTok,Social,97,0,2
+4,Chrome,Utilities,47,1,0
+4,MonopolyGo,Games,22,3,0
+4,Slots Era,Games,17,0,0
+4,Facebook,Social,14,1,2
+4,Snapchat,Social,8,2,13
+4,Reddit,Information and Reading,7,0,0
+4,Amazon,Shopping and Food,5,0,0
+4,Hinge,Other,5,0,0
+4,Messages,Social,4,1,12
+4,Books,Information and Reading,4,0,0
+4,Discord,Social,3,0,0
+4,Goodreads,Information and Reading,1,0,0
+4,IMDb,Entertainment,1,0,0
+4,Target,Shopping and Food,1,0,0
+4,Safari,,0.75,0,0
+4,Mercari,Shopping and Food,0.616666667,0,1
+4,Spotify,Entertainment,0.616666667,0,0
+4,Swagbucks,Other,0.6,0,0
+4,App Store,Utilities,0.533333333,0,0
+4,Tinder,Other,0.416666667,0,0
+4,Calculator,Utilities,0.2,0,0
+4,Photos,Creativity,0.133333333,0,0
+4,Gmail,Productivity and Finance,0.133333333,0,20
+4,Calendar,Productivity and Finance,0.1,0,0
+4,Travel Town,Games,0,0,5
+4,Messenger,Social,0.05,0,2
+4,Outlook,Productivity and Finance,0,0,2
+4,Starbucks,Shopping and Food,0.083333333,0,0
+4,Timehop,Social,0,0,1
+5,Instagram,Social,139,6,0
+5,Photos,Creativity,92,6,0
+5,TikTok,Social,72,1,0
+5,MonopolyGo,Games,20,1,0
+5,Settings,,18,2,0
+5,EverMerge,Games,17,1,0
+5,Messages,Social,11,25,25
+5,Chrome,Utilities,10,0,0
+5,Kindle,Information and Reading,8,1,0
+5,Snapchat,Social,8,22,35
+5,Tinder,Other,7,2,0
+5,Discover,Productivity and Finance,6,1,0
+5,Wells Fargo,Productivity and Finance,4,1,0
+5,Facebook,Social,3,0,0
+5,Camera,Creativity,3,0,0
+5,Calendar,Productivity and Finance,3,8,0
+5,Hinge,Other,2,1,0
+5,Xfinity,Utilities,1,1,0
+5,Goodreads,Information and Reading,1,0,0
+5,Mercari,Shopping and Food,1,4,0
+5,Messenger,Social,1,0,26
+5,Slots Era,Games,1,0,0
+5,Disney World,Travel,1,1,0
+5,Spotify,Entertainment,1,3,0
+5,IMDb,Entertainment,1,0,0
+5,Citi Mobile,Productivity and Finance,1,0,0
+5,Google Photos,Creativity,0.766666667,1,0
+5,Life360,Social,0.733333333,0,5
+5,Amazon,Shopping and Food,0.516666667,1,0
+5,Maps,Travel,0.25,0,0
+5,Calculator,Utilities,0.233333333,0,0
+5,Gmail,Productivity and Finance,0.216666667,1,24
+5,Discord,Social,0.183333333,0,0
+5,Phone,,0.116666667,0,2
+5,Clock,,0.116666667,0,4
+5,Outlook,Productivity and Finance,0.016666667,0,8
+5,Travel Town,Games,0,0,5
+5,Timehop,Social,0,0,3
+6,Instagram,Social,256,31,
+6,TikTok,Social,105,5,
+6,MonopolyGo,Games,68,,
+6,Facebook,Social,50,3,1
+6,Settings,,38,2,
+6,Wordgrams,Games,21,,
+6,EverMerge,Games,16,,
+6,Snapchat,Social,15,19,35
+6,Slots Era,Games,15,,
+6,Reddit,Information and Reading,8,,
+6,Messages,Social,5,8,16
+6,IMDb,Entertainment,5,1,
+6,Target,Shopping and Food,5,8,
+6,Messenger,Social,4,3,34
+6,Chrome,Utilities,3,2,
+6,Kindle,Information and Reading,2,1,
+6,Gmail,Productivity and Finance,2,1,29
+6,Etsy,Shopping and Food,2,,
+6,Swagbucks,Other,2,,
+6,Wells Fargo,Productivity and Finance,1,,
+6,Tinder,Other,1,1,
+6,Citi Mobile,Productivity and Finance,1,,
+6,Maps,Travel,0.8,,
+6,Clock,,0.633333333,1,2
+6,Amazon,Other,0.316666667,,
+6,Discord,Social,0.316666667,,
+6,Travel Town,Games,0.266666667,,3
+6,Hinge,Other,0.266666667,,
+6,Spotify,Entertainment,0.25,,
+6,App Store,Utilities,0.233333333,,
+6,Calendar,Productivity and Finance,0.216666667,,
+6,Phone,,0.216666667,,
+6,Timehop,Social,0.2,,3
+6,Safari,,0.166666667,,
+6,Life360,Social,0.133333333,,5
+6,Camera,Creativity,0.016666667,,
+6,Outlook,Productivity and Finance,,,9
+6,Wallet,Productivity and Finance,,,2
+6,TV Club,Entertainment,,,1
+7,Instagram,,212,3,3
+7,TikTok,,82,,
+7,MonopolyGo,,48,4,
+7,Kindle,,35,1,
+7,Wordgrams,,30,,4
+7,EverMerge,,30,1,
+7,Messenger,,20,20,40
+7,Chrome,,20,1,
+7,Settings,,11,2,
+7,Hinge,,7,1,
+7,Goodreads,,4,3,
+7,Tinder,,4,,
+7,Outlook,,2,10,13
+7,Snapchat,,2,1,9
+7,Messages,,2,6,10
+7,Facebook,,1,,
+7,TV Club,,1,,1
+7,Photos,,1,,
+7,Mercari,,1,2,
+7,Safari,,0.933333333,,
+7,Gmail,,0.85,2,62
+7,Spotify,,0.733333333,,
+7,Swagbucks,,0.616666667,,
+7,Wells Fargo,,0.616666667,,
+7,Discord,,0.4,,
+7,Maps,,0.3,,
+7,Amazon,,0.266666667,,
+7,Timehop,,0.183333333,1,2
+7,Clock,,0.066666667,,2
+7,Camera,,0.033333333,,
+7,Life360,,,,4
+7,Travel Town,,,,4
