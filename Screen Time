@@ -1,0 +1,147 @@
+--I wanted to look at my screen time from one week and see how I spend my time on my phone to cut back on screen time.
+
+--Update all nulls
+
+update dbo.[screen time]
+
+set Pickups = 0
+
+where Pickups IS NULL
+
+
+
+update dbo.[screen time]
+
+set Notifications = 0
+
+where Notifications IS NULL
+
+
+
+update dbo.[screen time]
+
+set [Time] = 0
+
+where [Time] IS NULL
+
+
+
+UPDATE dbo.[screen time]
+
+set [Category] = 'Apple Apps'
+
+where [Category] IS NULL
+
+--How much time did I spend on my phone each day?
+
+select [Date], round(sum([Time]),2) AS screen_time
+
+from dbo.[screen time]
+
+group by [Date]
+
+order by [screen_time] DESC
+
+--How much time did I spend in each app category throughout the week?
+
+select [Category], round(sum([Time]),2) AS screen_time
+
+from dbo.[screen time]
+
+group by [Category]
+
+order by [screen_time] DESC
+
+
+
+--What are my top 5 apps throughout the week?
+
+select TOP 5 [App], round(sum([Time]),2) AS screen_time
+
+from dbo.[screen time]
+
+group by [App]
+
+order by [screen_time] DESC
+
+--What app did I get on the most immediately after opening my phone?
+
+select [App], sum(Pickups) as Total_Pickups
+
+from dbo.[screen time]
+
+group by [App]
+
+having sum(Pickups) = (
+
+    select max(pickups)
+
+    from (
+
+        select sum(pickups) AS pickups
+
+        from dbo.[screen time]
+
+        group by [app]
+
+    )a)
+
+--What app gave me the most notifications?
+
+select [App], sum(Notifications) as Total_Notifications
+
+from dbo.[screen time]
+
+group by [App]
+
+having sum(Notifications) = (
+
+    select max(Notifications)
+
+    from (
+
+        select sum(Notifications) as notifications
+
+        from dbo.[screen time]
+
+        group by [app]
+
+    )a)
+
+--What app gave me the most notifications that I immediately opened?
+
+select top 1 [App], sum(notifications) as  n, sum(pickups) as p
+
+from dbo.[screen time]
+
+group by App
+
+having sum(Notifications) > sum(pickups)
+
+order by p desc
+
+--What app did I ignore the most notifications?
+
+select top 1 [App], sum(notifications) as  n, sum(pickups) as p
+
+from dbo.[screen time]
+
+group by App
+
+having sum(Notifications) > sum(pickups)
+
+order by n desc
+
+
+
+--What app did I open first for my own reason?
+
+select top 1 [App], sum(notifications) as  n, sum(pickups) as p
+
+from dbo.[screen time]
+
+group by App
+
+having sum(Notifications) < sum(pickups)
+
+order by p desc
