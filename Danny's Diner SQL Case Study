@@ -65,3 +65,16 @@ group by s.customer_id;
 select customer_id, count(DISTINCT order_date)
 from dannys_diner.sales
 group by customer_id;
+
+-- 3. What was the first item(s) from the menu purchased by each customer?
+SELECT customer_id, product_id
+FROM dannys_diner.sales D
+WHERE order_date = (SELECT MIN(order_date) FROM dannys_diner.sales WHERE customer_ID = D.customer_ID);
+
+-- 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+select m.product_name, count(s.product_id)
+from dannys_diner.sales AS s
+INNER JOIN dannys_diner.menu AS m
+ON s.product_id=m.product_id
+group by m.product_name
+limit 1;
