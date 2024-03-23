@@ -53,3 +53,15 @@ INSERT INTO members
 VALUES
   ('A', '2021-01-07'),
   ('B', '2021-01-09');
+
+-- 1. What is the total amount each customer spent at the restaurant?
+select s.customer_id, sum(m.price)
+from dannys_diner.sales AS s
+inner join dannys_diner.menu AS m ON
+s.product_id=m.product_id
+group by s.customer_id;
+
+-- 2. How many days has each customer visited the restaurant?
+select customer_id, count(DISTINCT order_date)
+from dannys_diner.sales
+group by customer_id;
