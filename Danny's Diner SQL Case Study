@@ -100,3 +100,13 @@ with first_purchase_after as (
 select customer_id, product_id
   from first_purchase_after
   where rank=1;
+
+-- 8. What is the total items and amount spent for each member before they became a member?
+select s.customer_id, count(*), sum(m1.price)
+from dannys_diner.sales AS s
+INNER JOIN dannys_diner.menu AS m1
+ON s.product_id=m1.product_id
+INNER JOIN dannys_diner.members AS m2
+ON s.customer_id=m2.customer_id
+WHERE s.order_date<m2.join_date
+group by s.customer_id;
