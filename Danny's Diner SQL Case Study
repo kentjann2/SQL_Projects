@@ -145,3 +145,19 @@ ON s.customer_id=m2.customer_id)
 select customer_id, sum(point)
 from points
 group by customer_id;
+
+-- Bonus
+with new_table AS (
+  select s.customer_id, s.order_date, m1.product_name, m1.price, 
+  	case when (s.order_date-m2.join_date>=0) THEN 'Y'
+  	ELSE 'N' END AS member
+  from dannys_diner.sales AS s
+  join dannys_diner.menu AS m1
+  ON s.product_id=m1.product_id
+  left join dannys_diner.members AS m2
+  ON s.customer_id=m2.customer_id)
+  
+ select *,
+ case when member = 'Y' THEN dense_rank() OVER(partition by member, customer_id order by order_date)
+  	ELSE null END AS ranking
+ from new_table;
