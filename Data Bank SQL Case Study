@@ -9444,3 +9444,19 @@ select region_id, PERCENTILE_cont(0.5) WITHIN GROUP (ORDER BY days) AS Median,
 PERCENTILE_cont(0.80) WITHIN GROUP (ORDER BY days) AS eightieth, PERCENTILE_cont(0.95) WITHIN GROUP (ORDER BY days) AS ninety-fifth
 from reallocation
 group by region_id;
+
+--Customer Transactions
+--1. What is the unique count and total amount for each transaction type?
+select txn_type, count(*), sum(txn_amount)
+from data_bank.customer_transactions
+group by txn_type;
+
+--2. What is the average total historical deposit counts and amounts for all customers? (unclear if it wants average(average()) or average(sum())
+with avg_customer As (
+  select customer_id, count(*) AS count, sum(txn_amount) AS sum
+from data_bank.customer_transactions
+where txn_type = 'deposit'
+group by customer_id)
+
+select avg(count), avg(sum)
+from avg_customer;
